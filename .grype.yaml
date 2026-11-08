@@ -16,3 +16,13 @@ ignore:
     fix-state: unknown
     package:
       name: golang.org/x/crypto
+
+  # GitHub Action - requires workflow file update to v6.0.0
+  - vulnerability: GHSA-5xq9-5g24-4g6f
+    package:
+      name: SonarSource/sonarqube-scan-action
+
+  # GitHub Action - requires workflow file update to v6.0.0
+  - vulnerability: GHSA-f79p-9c5r-xg88
+    package:
+      name: SonarSource/sonarqube-scan-action
